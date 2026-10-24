@@ -3,11 +3,13 @@
 A BFS-DFS hybrid search architecture that decouples conflict evaluation from search
 Precompute all pairwise conflicts once, store them in lookup tables, and reduce every conflict check during search to an O(1) table lookup for combinatory optimization proplems.
 
-1.1FKB.pdb is the source data of Rapamycin
+1.Supporting File:
 
-2.Rapamycin.xlsx is the experiment related data covering groups and rigid fragments partition,experimental statics and figures.
+    a.1FKB.pdb is the source data of Rapamycin
 
-3.Software Environment:
+    b.Rapamycin.xlsx is the experiment related data covering groups and rigid fragments partition,experimental statics and figures.
+
+2.Software Environment:
 
     a.CUDA: Cuda compilation tools, release 13.2, V13.2.78
 
@@ -17,7 +19,7 @@ Precompute all pairwise conflicts once, store them in lookup tables, and reduce 
 
     d.Programing Language: C/C++, C++: ISO C++20/ C: old MSVC
 
-4.note:
+3.note:
 
     a.The project runs normally under the software environment above.
 
